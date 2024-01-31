@@ -3,8 +3,8 @@ Module 21
 Overview of the analysis:
 The goal is to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
-Results: 
-  Data Preprocessing
+Results:
+- Data Preprocessing
     What variable(s) are the target(s) for your model?
          Binary success rate (Yes or No)
     What variable(s) are the features for your model?
@@ -18,8 +18,8 @@ Results:
         Unfortunately, no.  Optimizing the model did not improve the accuracy of ~73%
     What steps did you take in your attempts to increase model performance?
         I played with the cutoff value for classificatioan (appliation_type and classification bins), activation function (relu and tahn), number of hidden layers (incerased to three but no effect). No improvement in the accuracy was noted.
-        
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+  - Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
         In total, 804 parameters were created, 0.55 fraction loss and the accurace of 0.726 were recorded. I could not improve the accuracy by adjusting the knobs, such as # of layers and neurons, cut-off classifier values. 
         I wonder if we should still keep the NAME for better binary classifier.
         The model was saved as AlphabetSoupCharity.h5 file.
